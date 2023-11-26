@@ -1,0 +1,37 @@
+body {
+  background-color: #4bb1d3;
+}
+
+.box {
+  background-color: #272b2b;
+  height: 200px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.box > div {
+  background-color: #2e3538;
+  color: #4bb1d3;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#enter{
+    grid-area: 3/11/4/13;
+}
+
+#shift{
+    grid-area: 4/11/5/13;
+}
+
+#space{
+    grid-area: 5/5/6/9;
+}
